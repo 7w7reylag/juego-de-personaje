@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#gameArea {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#character {
+    font-size: 100px; /* Tamaño del personaje */
+    transition: transform 0.2s; /* Transición suave */
+}
